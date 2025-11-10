@@ -29,7 +29,8 @@ For more help with Flutter development, check out the [official documentation](h
 - Guidance on mobile development  
 - Full API reference
 ## 📂 Project Structure 
-flutter_demos/ ├── lib/              # Main source code ├── test/             # Unit tests ├── android/          # Android-specific files ├── ios/              # iOS-specific files └── pubspec.yaml      # Project configuratio
+flutter_demos/ ├── lib/              
+# Main source code ├── test/             # Unit tests ├── android/          # Android-specific files ├── ios/              # iOS-specific files └── pubspec.yaml      # Project configuratio
 
 ---
 
