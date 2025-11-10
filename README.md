@@ -5,8 +5,8 @@
 ---
 
 ## 👤 Student Information  
-- **Name:** Istiaq Rahman Mahi  
-- **Student ID:** 0182320012101062  
+- **Name:** Jogonnath Das Talukder
+- **Student ID:** 0182320012101060
 - **Section:** B  
 - **Instructor:** Nargish Jahan  
 - **Department:** Computer Science and Engineering  
@@ -40,7 +40,7 @@ This project is part of the **Smartphone Application Development** course, desig
 ---
 
 ## 🏆 Acknowledgements  
-Special thanks to **Instructor Nargish Jahan** for guidance and support throughout the course. 🙌  
+Special thanks to **Instructor Nargish Jahan Mam** for guidance and support throughout the course. 🙌  
 
 
 ---
