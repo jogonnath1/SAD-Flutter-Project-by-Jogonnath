@@ -33,14 +33,12 @@ For more help with Flutter development, check out the [official documentation](h
 
 ## 🎯 Purpose  
 This project is part of the **Smartphone Application Development** course, designed to help students:  
-- Understand Flutter basics 🏗️  
+- Understand Flutter basics 🏗  
 - Build cross-platform mobile apps 📱  
 - Apply theoretical knowledge into practical projects 💡  
 
 ---
 
 ## 🏆 Acknowledgements  
-Special thanks to **Instructor Nargish Jahan Mam** for guidance and support throughout the course. 🙌  
----
+Special thanks to **Instructor Nargish Jahan Mam** for guidance and support throughout the course. 
 
-## 📂 Project Structure  
