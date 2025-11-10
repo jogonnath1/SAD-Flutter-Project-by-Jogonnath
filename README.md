@@ -41,8 +41,6 @@ This project is part of the **Smartphone Application Development** course, desig
 
 ## 🏆 Acknowledgements  
 Special thanks to **Instructor Nargish Jahan Mam** for guidance and support throughout the course. 🙌  
-
-
 ---
 
 ## 📂 Project Structure  
