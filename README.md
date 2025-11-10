@@ -1,4 +1,4 @@
-# 📱 flutter_demos  
+# 📱 - Flutter Showcase
 
 ✨ A new Flutter project for **Smartphone Application Development (CSE-3212)** ✨  
 
