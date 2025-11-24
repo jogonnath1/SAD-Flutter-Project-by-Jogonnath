@@ -40,9 +40,9 @@ class HomePage extends StatelessWidget {
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
-            Text("Welcome to homepage!!!", style: TextStyle(fontSize: 20)),
+            Text("Welcome to JDT homepage!!!", style: TextStyle(fontSize: 20)),
 
-            Image.asset('assets/images/flutter.png'),
+            Image.asset('assets/images/front.jpg'),
           ],
         ),
       ),

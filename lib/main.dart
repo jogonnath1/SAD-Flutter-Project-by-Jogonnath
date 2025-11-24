@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:project/home_page.dart';
+import 'package:project/assignment5.dart';
 
 void main() {
   runApp(const MyApp());
@@ -14,6 +15,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData.light(),
       debugShowCheckedModeBanner: false,
       home: HomePage(),
+      //home: Setimages(),
     );
   }
 }
