@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:project/profile_page.dart';
 
 class HomePage extends StatelessWidget {
   const HomePage({super.key});
@@ -37,13 +38,75 @@ class HomePage extends StatelessWidget {
         ],
       ),
       body: Center(
-        child: Column(
-          mainAxisAlignment: MainAxisAlignment.center,
-          children: [
-            Text("Welcome to JDT homepage!!!", style: TextStyle(fontSize: 20)),
+        child: SingleChildScrollView(
+          child: Column(
+            mainAxisAlignment: MainAxisAlignment.center,
+            children: [
+              Text("Welcome to homepage!!!", style: TextStyle(fontSize: 20)),
+              Row(
+                mainAxisAlignment: MainAxisAlignment.center,
+                children: [
+                  ElevatedButton(
+                    onPressed: () {
+                      Navigator.push(
+                        context,
+                        MaterialPageRoute(builder: (context) => ProfilePage()),
+                      );
+                    },
+                    style: ElevatedButton.styleFrom(
+                      backgroundColor: Colors.blueGrey,
+                      foregroundColor: Colors.white,
+                      shape: BeveledRectangleBorder(),
+                    ),
+                    child: Text("Elevated"),
+                  ),
 
-            Image.asset('assets/images/front.jpg'),
-          ],
+                  OutlinedButton(onPressed: () {}, child: Text("Outlined")),
+
+                  TextButton(
+                    onPressed: () {},
+                    style: TextButton.styleFrom(
+                      backgroundColor: Colors.blueGrey,
+                    ),
+                    child: Text("Text"),
+                  ),
+                ],
+              ),
+
+              // SizedBox(height: 20),
+              SizedBox(
+                height: 300,
+                width: 300,
+                child: Card(
+                  color: Colors.amber,
+                  child: Center(child: Text("Card")),
+                ),
+              ),
+              Container(
+                height: 300,
+                width: 300,
+                padding: EdgeInsets.all(20),
+                margin: EdgeInsets.all(20),
+                alignment: Alignment.center,
+                decoration: BoxDecoration(
+                  color: Colors.blueGrey,
+                  border: Border.all(color: Colors.yellowAccent, width: 5),
+                  // borderRadius: BorderRadius.all(Radius.circular(20)),
+                  shape: BoxShape.circle,
+                ),
+                child: Text("Container"),
+              ),
+              Image.asset('assets/images/flutter.png', height: 300),
+              // Image.asset(
+              //   'assets/images/images.jpeg',
+              //   height: 500,
+              //   fit: BoxFit.fill,
+              // ),
+              // Image.network(
+              //   'https://images.unsplash.com/photo-1575936123452-b67c3203c357?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8aW1hZ2V8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&q=60&w=500',
+              // ),
+            ],
+          ),
         ),
       ),
     );
